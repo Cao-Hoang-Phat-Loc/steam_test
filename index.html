@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>HTML + CSS</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="responsive_header_content">
+      <div class="responsive_header_logo">
+        <a href="https://store.steampowered.com/?snr=1_4_4__global-responsive-menu">
+          <img src="https://store.cloudflare.steamstatic.com/public/shared/images/responsive/header_logo.png"
+            height="36" alt="STEAM" />
+        </a>
+      </div>
+      <h3 id="displayTitle">Best game</h3>
+      <div class="nav_links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">About Us</a></li>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="area">
+      <div class="search_area">
+        <input id="searchForm" name="searchForm" type="text" class="default" placeholder="search" size="22"
+          maxlength="64" />
+        <button type="submit" id="search_btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <div class="categories_area">
+        <hr>
+        <div class="game_categories">
+          <div class="category" data-value="action">Action</div>
+          <div class="category" data-value="multiplayer">Multiplayer</div>
+          <div class="category" data-value="fps">FPS</div>
+          <div class="category" data-value="world war ii">World war ii</div>
+          <div class="category" data-value="sci-fi">Sci-fi</div>
+          <div class="category" data-value="classic">Classic</div>
+          <div class="category" data-value="singleplayer">Singleplayer</div>
+          <div class="category" data-value="puzzle">Puzzle</div>
+          <div class="category" data-value="first-person">First-person</div>
+          <div class="category" data-value="free to play">Free to play</div>
+        </div>
+      </div>
+    </div>
+    <div class="game_area" id="display_game">
+      <div class="loader"></div>
+      <!-- <div>
+        <div class="game_wrapper">
+          <div class="cover" onclick="appDetail(1335200)">
+            <img
+              src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1335200/header.jpg?t=1700123682"
+              data-id="1335200">
+            <div class="game_info">
+              <p>Action Taimanin</p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="game_wrapper">
+          <div class="cover" onclick="appDetail(1335200)">
+            <img
+              src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1335200/header.jpg?t=1700123682"
+              data-id="1335200">
+            <div class="game_info">
+              <p>Action Taimanin</p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Steam Solution. All rights reserved.</p>
+  </footer>
+  <script src="https://kit.fontawesome.com/0a4fbce6aa.js" crossorigin="anonymous"></script>
+  <script src="hello.js"></script>
+</body>
+
+</html>
+
